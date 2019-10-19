@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: .5rem 0rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0rem 2rem;
+    overflow: hidden;
+    margin: auto;
+}
+
+.text-primary {
+    color: #2ec66d;
+}
+
+.l-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.py-1 {
+    padding: 1rem 0rem;
+}
+
+.py-2 {
+    padding: 2rem 0rem;
+}
+
+.py-3 {
+    padding: 3rem 0rem;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+}
+
+.btn {
+    display: inline-block;
+    padding: .8rem 1.8rem;
+    background: #2ec66d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #299958;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.primary-color {
+    background: #2ec66d;
+    color: white;
+}
+
+.list {
+    list-style: none;
+    padding: .8rem;
+}
+
+#navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 1;
+    text-align: center;
+    /* padding: .8rem; */
+    padding-left: .5rem;
+    ;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    text-align: center;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: .7rem;
+}
+
+#navbar ul li a:hover {
+    background: #20c997;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: url("../img/bg.jpg") no-repeat center center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(51, 51, 51, .8);
+}
+
+#what .items {
+    display: flex;
+}
+
+#what .items .item {
+    text-align: center;
+    margin: 1rem;
+}
+
+#what .items .item i {
+    background: #2ec66d;
+    color: #333;
+    padding: .8rem;
+    border-radius: 50%;
+}
+
+#who {
+    display: flex;
+}
+
+#who .img-div {
+    background: url("../img/team.jpg") no-repeat center center;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who ul li {
+    padding-top: 1rem;
+    border: none;
+}
+
+#client .items {
+    display: flex;
+}
+
+#client .items .item img {
+    display: block;
+    width: 60%;
+    margin-left: .5rem;
+}
+
+#contact div {
+    display: flex;
+    flex: 1;
+}
+
+#contact .contact-info form div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact .contact-info form div input,
+#contact .contact-info form div textarea {
+    width: 100%;
+    border: none;
+    height: 20px;
+}
+
+#contact .contact-info form div textarea {
+    height: 100px;
+}
