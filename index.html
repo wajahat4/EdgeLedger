@@ -107,15 +107,34 @@
             </div>
         </div>
     </section>
-    <div id="contact" class=" primary-color p-2">
-        <h1 class="m-heading ">Contact Us</h1>
-        <p>Fill The Form To Contact Us</p>
-        <form action="">
+    <div id="contact" class=" bg-dark p-2">
+        <div class="contact-info ">
+            <h1 class="m-heading ">Contact Us</h1>
+            <p>Fill The Form To Contact Us</p>
+            <form action="action.process">
+                <div class="formgroup">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Name:">
+                </div>
+                <div class="formgroup">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Name:">
+                </div>
+                <div class="formgroup">
+                    <label for="phone">Phone Number</label>
+                    <input type="phone" placeholder="Enter Phone:">
+                </div>
+                <div class="formgroup">
+                    <label for="message">Enter Message</label>
+                    <textarea type="message" placeholder="Enter Message:"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn primary-color">
+            </form>
+        </div>
+        <div class="map"></div>
+    </div>
 
-        </form>
-    </div>
-    </div>
-    <div class="map"></div>
+
 </body>
 
 </html>
