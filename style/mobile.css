@@ -1,0 +1,44 @@
+#what .items {
+    display: flex;
+    flex-direction: column;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+#showcase .showcase-content .lead {
+    padding: 1rem;
+}
+
+#who .img-div {
+    display: none;
+}
+
+@media(max-width:500px) {
+    #who {
+        padding-top: 1rem;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    #showcase .showcase-content {
+        margin-top: -2rem;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    #client {
+        padding: -1rem;
+    }
+    #client .items .item img {
+        width: 80%;
+    }
+    #client .items div:last-child {
+        display: none;
+    }
+    #contact .map {
+        height: 500px;
+    }
+}
