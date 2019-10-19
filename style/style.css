@@ -5,9 +5,10 @@ body {
     box-sizing: border-box;
 }
 
-html {
+
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 a {
     text-decoration: none;
@@ -87,7 +88,7 @@ ul {
 }
 
 .btn:hover {
-    background: #17201b;
+    background: #1d6b40;
 }
 
 .bg-dark {
@@ -117,7 +118,6 @@ ul {
     text-align: center;
     /* padding: .8rem; */
     padding-left: .5rem;
-    ;
 }
 
 #navbar ul {
@@ -198,6 +198,19 @@ ul {
     margin-left: .5rem;
 }
 
+#contact {
+    display: flex;
+}
+
+#contact .contact-info,
+#contact .map {
+    flex: 1;
+}
+
+#contact .contact-info {
+    display: block;
+}
+
 #contact .contact-info .formgroup {
     margin-top: 1rem;
 }
@@ -209,11 +222,17 @@ ul {
 #contact .contact-info .formgroup input,
 #contact .contact-info .formgroup textarea {
     width: 100%;
-    height: 40px;
+    height: 30px;
     outline: 1px solid #808080;
     border: none;
 }
 
 #contact .contact-info .formgroup textarea {
     height: 50px;
+}
+
+#footer {
+    background: #171819;
+    text-align: center;
+    color: white;
 }
