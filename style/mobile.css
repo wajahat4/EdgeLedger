@@ -42,3 +42,12 @@
         height: 500px;
     }
 }
+
+@media(max-height:568px) {
+    #showcase .showcase-content .l-heading {
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-size: 1.2rem;
+    }
+}
